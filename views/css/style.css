@@ -1,0 +1,2140 @@
+* {
+    /* formatando a página */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Saira Condensed', sans-serif;
+    scroll-behavior: smooth;
+}
+
+:target {
+    scroll-margin-top: .8em;
+}
+
+header {
+    /* estilizando cabeçalho */
+    background-color: #730220;
+    background-size: cover;
+    background-position: top;
+    min-height: 250px;
+    padding: 25px;
+}
+
+.container {
+    /* definindo tamanho do primeiro container */
+    max-width: 1200px;
+    /*  Largura maxima do container  */
+    padding: 0 2%;
+    margin: 0 auto;
+
+}
+
+.logo {
+    /* estilizando a logo */
+    position: relative;
+    background-image: url('../img/logo.png');
+    /* puxando minha logo */
+    width: 132px;
+    height: 40px;
+    background-size: 100% 100%;
+    float: left;
+
+}
+
+nav.desktop {
+    float: right;
+    /* definindo posição do topico */
+
+}
+
+nav.desktop ul {
+    /* tirando pontos da lista */
+    list-style-type: none;
+
+}
+
+nav.desktop li {
+    /* transformando lista em apenas um  linha */
+    display: inline-block;
+    margin: 0 15px;
+
+}
+
+nav.desktop a {
+    /* estilizando menu superior */
+    text-decoration: none;
+    color: white;
+
+}
+
+nav li.btn-mais {
+    /* menu superior */
+    padding: 3px 8px;
+
+}
+
+.desktop a:hover {
+    /* efeito ao passar o mouse em cima */
+    border-bottom: 1.5px solid #F29F05;
+
+}
+
+div.chamada-mkt {
+    /* tamanho do texto superior abaixo da logo  */
+    padding: 50px 0;
+
+}
+
+div.chamada-mkt h2 {
+    /* estilizando texto supoerior */
+    font-size: 45px;
+    font-weight: bolder;
+    color: white;
+    font-family: 'Saira Condensed', sans-serif;
+
+}
+
+div.chamada-mkt p {
+    /* estilizando texto supoerior */
+    font-size: 30px;
+    color: white;
+    font-family: 'Saira Condensed', sans-serif;
+
+}
+
+div.chamada-mkt form {
+    /* estilizando formulario */
+    margin-top: 15px;
+    border-color: #F29F05;
+
+}
+
+div.chamada-mkt input[type=email]:focus {
+    outline: 0;
+}
+
+/*  campo de email */
+
+div.chamada-mkt input[type=email] {
+    /* estilizando campo de email */
+    width: 190px;
+    height: 35px;
+    border-radius: 100px;
+    background-color: #ffffff;
+    border: 0;
+    padding-left: 18px;
+    margin-top: 20px;
+    box-shadow: 0 9px 20px 0 rgba(0, 0, 0, 0.5);
+
+}
+
+div.chamada-mkt input[type=submit] {
+    /* estilizando botão de login */
+    border-radius: 100px;
+    width: 80px;
+    height: 35px;
+    cursor: pointer;
+    border-color: #F29F05;
+    box-shadow: 0 9px 20px 0 rgba(0, 0, 0, 0.5);
+
+}
+
+div.chamada-mkt input[type=submit]:hover {
+    /* efeito ao passar o mouse - botão de email */
+    transition: all 0.5s ease;
+    background-color: #F2B705;
+    color: white;
+}
+
+.sessao-01 {
+    /* fundo da primeira sessão */
+    text-align: center;
+    padding: 30px 0;
+    background-color: #F2B705;
+}
+
+.des-produto {
+    /* descrição da primeira sessão */
+    padding: 0 15px;
+    float: right;
+    width: 60%;
+    margin-top: 30px;
+
+
+}
+
+.des-produto h3 {
+    /* descrição da primeira sessão */
+    padding-top: 35px;
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    font-family: 'Saira Condensed', sans-serif;
+
+}
+
+.des-produto p {
+    /* descrição da primeira sessão */
+    margin-top: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 27px;
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 900;
+
+}
+
+.sessao-01 img {
+    /* imagem da primeira sessão */
+    width: 40%;
+    float: left;
+    max-width: 500px;
+
+}
+
+.clear {
+    clear: both;
+}
+
+.sessao-02 {
+    background-color: #730220;
+    background-size: 100%;
+    padding: 50px;
+}
+
+.sessao-02>.container {
+    /* editando container da segunda sessão */
+    background-image: url('../img/chef.jpg');
+    background-size: cover;
+    position: relative;
+    max-width: 1000px;
+    min-height: 350px;
+
+}
+
+.feedback {
+    /* estilizando segunda sessão */
+    position: absolute;
+    left: 60%;
+    width: 70%;
+    background: rgba(47, 47, 47, 0.7);
+    bottom: -25px;
+    max-width: 500px;
+    padding: 45px;
+    box-shadow: 0 9px 20px 0 rgba(0, 0, 0, 0.9);
+    border-radius: 3%;
+
+}
+
+.feedback p {
+    /* estilizando texto da segunda sessão */
+    font-size: 19px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Saira Condensed', sans-serif;
+    font-style: italic;
+}
+
+.container img {
+    /* imagem da segunda sessão */
+    box-shadow: 0 9px 20px 0 rgba(0, 0, 0, 0.5);
+    background-color: white;
+    border-radius: 3%;
+
+}
+
+.sessao-03 {
+    /* tamanho da terceira sessao */
+    padding: 15px;
+    text-align: center;
+    background-color: #F2B705;
+
+}
+
+.sessao-03 div {
+    /* estilizando as 3 colunas dos itens na terceira sessão */
+    display: inline-block;
+    position: relative;
+    bottom: -43px;
+    margin: 11px;
+    height: 520px;
+    width: 25%;
+    background-color: #730220;
+    margin-left: 13px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.prod-1 {
+    /* imagem do primeiro produto */
+    background-image: url('../img/pimenta.png');
+    background-repeat: no-repeat;
+    text-align: start;
+    padding-left: 13px;
+    background-size: contain;
+
+}
+
+.prod-1 h1 {
+    /* estilizando texto do primeiro produto */
+    position: absolute;
+    top: 30%;
+    padding-left: 33%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+.prod-1 p {
+    /* estilizando texto do primeiro produto */
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 40%;
+    padding-right: 10px;
+
+}
+
+.prod-1 input[type=submit] {
+    /* estilizando botão do primeiro produto */
+    border-radius: 100px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-color: #F29F05;
+    position: absolute;
+    text-align: center;
+    left: 105px;
+    top: 450px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.prod-2 {
+    /* imagem do segundo produto */
+    background-image: url('../img/oregano.png');
+    background-repeat: no-repeat;
+    text-align: start;
+    padding-left: 13px;
+    background-size: contain;
+
+}
+
+.prod-2 h1 {
+    /* estilizando texto do segundo produto */
+    position: absolute;
+    top: 30%;
+    padding-left: 38%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+.prod-2 p {
+    /* estilizando texto do segundo produto */
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 40%;
+    padding-right: 10px;
+
+}
+
+.prod-2 input[type=submit] {
+    /* estilizando botão do segundo produto */
+    border-radius: 100px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-color: #F29F05;
+    position: absolute;
+    text-align: center;
+    left: 105px;
+    top: 450px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+.prod-3 {
+    /* imagem do teceiro produto */
+    background-image: url('../img/chimibr.png');
+    background-repeat: no-repeat;
+    text-align: start;
+    padding-left: 13px;
+    background-size: contain;
+
+}
+
+.prod-3 h1 {
+    /* estilizando texto do terceiro produto */
+    position: absolute;
+    top: 30%;
+    padding-left: 33%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+.prod-3 p {
+    /* estilizando texto do terceiro produto */
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 40%;
+    padding-right: 10px;
+
+}
+
+.prod-3 input[type=submit] {
+    /* estilizando botão do terceiro produto */
+    border-radius: 100px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-color: #F29F05;
+    position: absolute;
+    text-align: center;
+    left: 110px;
+    top: 450px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.parceiros {
+    /* estilizando área de parceiros */
+    padding-bottom: 18px;
+    background-color: #F2B705;
+}
+
+.parceiros div {
+    display: inline-block;
+    position: relative;
+    height: 45px;
+    width: 160px;
+    background-color: white;
+    left: 18%;
+    margin-left: 30px;
+    border-radius: 15px;
+    background-size: cover;
+
+}
+
+.parceiros p {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: x-large;
+    padding-top: 45px;
+    padding-bottom: 25px;
+    position: relative;
+
+}
+
+.parc1 {
+    /* estilizando fotos área de parceiros */
+    background-image: url('../img/bombay.png');
+    background-repeat: no-repeat;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.parc2 {
+    /* estilizando fotos área de parceiros */
+    background-image: url('../img/brspices.png');
+    background-repeat: no-repeat;
+    text-align: start;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.parc3 {
+    /* estilizando fotos área de parceiros */
+    background-image: url('../img/KitanoLogo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: start;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.parc4 {
+    /* estilizando fotos área de parceiros */
+    background-image: url('../img/pitada.png');
+    background-repeat: no-repeat;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    line-height: 46px;
+
+}
+
+.sessao-03 .active:hover {
+    /* efeito ao passar o mouse em "comprar" */
+    transition: all 0.5s ease;
+    background-color: #F2B705;
+    color: white;
+}
+
+.footer {
+    /* estilizando footer */
+    background-color: #730220;
+    background-size: cover;
+    text-align: center;
+    padding: 30px 0 30px 0;
+    width: 100%;
+    min-height: 260px;
+}
+
+
+/* ESTILIZANDO PÁGINA VER MAIS */
+
+
+
+.header1 {
+    /* estilizando cabeçalho "VER MAIS" */
+    background-color: #730220;
+    background-size: cover;
+    background-position: top;
+    min-height: 80px;
+    padding: 25px;
+
+}
+
+.titulo_topo {
+    color: white;
+    text-align: center;
+    padding: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    background-color: #F29F05;
+    text-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+    padding-top: 10px;
+}
+
+.prod-v1 {
+    /* imagem do primeiro produto */
+    background-image: url('../img/pimenta.png');
+    background-repeat: no-repeat;
+    text-align: start;
+    padding-left: 13px;
+    background-size: contain;
+
+}
+
+.prod-v1 h1 {
+    /* estilizando texto do primeiro produto */
+    position: absolute;
+    top: 31%;
+    padding-left: 25%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+.prod-v1 p {
+    /* estilizando texto do primeiro produto */
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 40%;
+    padding-right: 10px;
+
+}
+
+.prod-v1 input[type=submit] {
+    /* estilizando botão do primeiro produto */
+    border-radius: 100px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-color: #F29F05;
+    position: absolute;
+    text-align: center;
+    left: 105px;
+    top: 450px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.prod-v2 {
+    /* imagem do segundo produto */
+    background-image: url('../img/chimibr.png');
+    background-repeat: no-repeat;
+    text-align: start;
+    padding-left: 13px;
+    background-size: contain;
+
+}
+
+.prod-v2 h1 {
+    /* estilizando texto do segundo produto */
+    position: absolute;
+    top: 31%;
+    padding-left: 17%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+.prod-v2 p {
+    /* estilizando texto do segundo produto */
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 40%;
+    padding-right: 10px;
+
+}
+
+.prod-v2 input[type=submit] {
+    /* estilizando botão do segundo produto */
+    border-radius: 100px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-color: #F29F05;
+    position: absolute;
+    text-align: center;
+    left: 105px;
+    top: 450px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+.prod-v3 {
+    /* imagem do teceiro produto */
+    background-image: url('../img/dry.png');
+    background-repeat: no-repeat;
+    text-align: start;
+    padding-left: 13px;
+    background-size: contain;
+
+}
+
+.prod-v3 h1 {
+    /* estilizando texto do terceiro produto */
+    position: absolute;
+    top: 31%;
+    padding-left: 25%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+.prod-v3 p {
+    /* estilizando texto do terceiro produto */
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 40%;
+    padding-right: 10px;
+
+}
+
+.prod-v3 input[type=submit] {
+    /* estilizando botão do terceiro produto */
+    border-radius: 100px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-color: #F29F05;
+    position: absolute;
+    text-align: center;
+    left: 110px;
+    top: 450px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.sessao-v03 {
+    /* tamanho da terceira sessao */
+    text-align: center;
+    background-color: #F29F05;
+
+}
+
+.sessao-v03 div {
+    /* estilizando as 3 colunas dos itens na terceira sessão */
+    display: inline-block;
+    position: relative;
+    margin: 11px;
+    height: 520px;
+    width: 25%;
+    background-color: #730220;
+    margin-left: 13px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.prod-v4 {
+    /* imagem do primeiro produto */
+    background-image: url('../img/curcuma.png');
+    background-repeat: no-repeat;
+    text-align: start;
+    padding-left: 13px;
+    background-size: contain;
+
+}
+
+.prod-v4 h1 {
+    /* estilizando texto do primeiro produto */
+    position: absolute;
+    top: 31%;
+    padding-left: 25%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+.prod-v4 p {
+    /* estilizando texto do primeiro produto */
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 40%;
+    padding-right: 10px;
+
+}
+
+.prod-v4 input[type=submit] {
+    /* estilizando botão do primeiro produto */
+    border-radius: 100px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-color: #F29F05;
+    position: absolute;
+    text-align: center;
+    left: 105px;
+    top: 450px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.prod-v5 {
+    /* imagem do segundo produto */
+    background-image: url('../img/garam.png');
+    background-repeat: no-repeat;
+    text-align: start;
+    padding-left: 13px;
+    background-size: contain;
+
+}
+
+.prod-v5 h1 {
+    /* estilizando texto do segundo produto */
+    position: absolute;
+    top: 31%;
+    padding-left: 24%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+.prod-v5 p {
+    /* estilizando texto do segundo produto */
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 40%;
+    padding-right: 10px;
+
+}
+
+.prod-v5 input[type=submit] {
+    /* estilizando botão do segundo produto */
+    border-radius: 100px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-color: #F29F05;
+    position: absolute;
+    text-align: center;
+    left: 105px;
+    top: 450px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+.prod-v6 {
+    /* imagem do teceiro produto */
+    background-image: url('../img/lemon.png');
+    background-repeat: no-repeat;
+    text-align: start;
+    padding-left: 13px;
+    background-size: contain;
+
+}
+
+.prod-v6 h1 {
+    /* estilizando texto do terceiro produto */
+    position: absolute;
+    top: 31%;
+    padding-left: 25%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+.prod-v6 p {
+    /* estilizando texto do produto */
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 40%;
+    padding-right: 10px;
+
+}
+
+.prod-v6 input[type=submit] {
+    /* estilizando botão do produto */
+    border-radius: 100px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-color: #F29F05;
+    position: absolute;
+    text-align: center;
+    left: 110px;
+    top: 450px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.sessao-v06 {
+    /* tamanho da terceira sessao */
+    padding: 15px;
+    text-align: center;
+    background-color: #F29F05;
+
+}
+
+.sessao-v06 div {
+    /* estilizando itens do catalogo */
+    display: inline-block;
+    position: relative;
+    margin: 11px;
+    height: 520px;
+    width: 25%;
+    background-color: #730220;
+    margin-left: 13px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.sessao-v03 .active:hover {
+    /* efeito ao passar o mouse em "comprar" */
+    transition: all 0.5s ease;
+    background-color: #F2B705;
+    color: white;
+}
+
+.footerv {
+    /* estilizando footer */
+    background-color: #730220;
+    text-align: center;
+    color: white;
+}
+
+.footer-div h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-div p {
+    text-align: center;
+    padding: 2px;
+    bottom: 0;
+    position: relative;
+
+}
+
+::-webkit-scrollbar {
+    /* largura da barra de rolagem */
+    width: 12px;
+
+}
+
+::-webkit-scrollbar-track {
+    /* cor de fundo e raio da faixa */
+    border-radius: 4px;
+    background-color: #E7E7E7;
+
+}
+
+::-webkit-scrollbar-thumb {
+    /* cor e raio do "polegar" da barra */
+    border-radius: 4px;
+    background-color: #646464;
+
+}
+
+
+/* ESTILIZANDO PAGINA - PIMENTAS */
+
+
+.prod-p1 {
+    /* imagem do primeiro produto */
+    background-image: url('../img/pimenta.png');
+    background-repeat: no-repeat;
+    text-align: start;
+    padding-left: 13px;
+    background-size: contain;
+
+}
+
+.prod-p1 h1 {
+    /* estilizando texto do primeiro produto */
+    position: absolute;
+    top: 31%;
+    padding-left: 25%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+.prod-p1 p {
+    /* estilizando texto do primeiro produto */
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 40%;
+    padding-right: 10px;
+
+}
+
+.prod-p1 input[type=submit] {
+    /* estilizando botão do primeiro produto */
+    border-radius: 100px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-color: #F29F05;
+    position: absolute;
+    text-align: center;
+    left: 105px;
+    top: 450px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.prod-p2 {
+    /* imagem do segundo produto */
+    background-image: url('../img/pimenta_branca.png');
+    background-repeat: no-repeat;
+    text-align: start;
+    padding-left: 13px;
+    background-size: contain;
+
+}
+
+.prod-p2 h1 {
+    /* estilizando texto do segundo produto */
+    position: absolute;
+    top: 31%;
+    padding-left: 25%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+.prod-p2 p {
+    /* estilizando texto do segundo produto */
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 40%;
+    padding-right: 10px;
+
+}
+
+.prod-p2 input[type=submit] {
+    /* estilizando botão do segundo produto */
+    border-radius: 100px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-color: #F29F05;
+    position: absolute;
+    text-align: center;
+    left: 105px;
+    top: 450px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+.prod-p3 {
+    /* imagem do teceiro produto */
+    background-image: url('../img/pimenta_rosa.png');
+    background-repeat: no-repeat;
+    text-align: start;
+    padding-left: 13px;
+    background-size: contain;
+
+}
+
+.prod-p3 h1 {
+    /* estilizando texto do terceiro produto */
+    position: absolute;
+    top: 31%;
+    padding-left: 28%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+.prod-p3 p {
+    /* estilizando texto do terceiro produto */
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 40%;
+    padding-right: 10px;
+
+}
+
+.prod-p3 input[type=submit] {
+    /* estilizando botão do terceiro produto */
+    border-radius: 100px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-color: #F29F05;
+    position: absolute;
+    text-align: center;
+    left: 110px;
+    top: 450px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.sessao-p03 {
+    /* tamanho da terceira sessao */
+    text-align: center;
+    background-color: #F29F05;
+
+}
+
+.sessao-p03 div {
+    /* estilizando as 3 colunas dos itens na terceira sessão */
+    display: inline-block;
+    position: relative;
+    margin: 11px;
+    height: 520px;
+    width: 25%;
+    background-color: #730220;
+    margin-left: 13px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.prod-p4 {
+    /* imagem do primeiro produto */
+    background-image: url('../img/pimenta_mix.png');
+    background-repeat: no-repeat;
+    text-align: start;
+    padding-left: 13px;
+    background-size: contain;
+
+}
+
+.prod-p4 h1 {
+    /* estilizando texto do primeiro produto */
+    position: absolute;
+    top: 31%;
+    padding-left: 28%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+.prod-p4 p {
+    /* estilizando texto do primeiro produto */
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 40%;
+    padding-right: 10px;
+
+}
+
+.prod-p4 input[type=submit] {
+    /* estilizando botão do primeiro produto */
+    border-radius: 100px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-color: #F29F05;
+    position: absolute;
+    text-align: center;
+    left: 105px;
+    top: 450px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.prod-p5 {
+    /* imagem do segundo produto */
+    background-image: url('../img/pimenta_verde.png');
+    background-repeat: no-repeat;
+    text-align: start;
+    padding-left: 13px;
+    background-size: contain;
+
+}
+
+.prod-p5 h1 {
+    /* estilizando texto do segundo produto */
+    position: absolute;
+    top: 31%;
+    padding-left: 24%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+.prod-p5 p {
+    /* estilizando texto do segundo produto */
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 40%;
+    padding-right: 10px;
+
+}
+
+.prod-p5 input[type=submit] {
+    /* estilizando botão do segundo produto */
+    border-radius: 100px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-color: #F29F05;
+    position: absolute;
+    text-align: center;
+    left: 105px;
+    top: 450px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+.prod-p6 {
+    /* imagem do teceiro produto */
+    background-image: url('../img/pimenta_jamaica.png');
+    background-repeat: no-repeat;
+    text-align: start;
+    padding-left: 13px;
+    background-size: contain;
+
+}
+
+.prod-p6 h1 {
+    /* estilizando texto do terceiro produto */
+    position: absolute;
+    top: 31%;
+    padding-left: 25%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+.prod-p6 p {
+    /* estilizando texto do produto */
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 40%;
+    padding-right: 10px;
+
+}
+
+.prod-p6 input[type=submit] {
+    /* estilizando botão do produto */
+    border-radius: 100px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-color: #F29F05;
+    position: absolute;
+    text-align: center;
+    left: 110px;
+    top: 450px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.sessao-p06 {
+    /* tamanho da terceira sessao */
+    padding: 15px;
+    text-align: center;
+    background-color: #F29F05;
+
+}
+
+.sessao-p06 div {
+    /* estilizando itens do catalogo */
+    display: inline-block;
+    position: relative;
+    margin: 11px;
+    height: 520px;
+    width: 25%;
+    background-color: #730220;
+    margin-left: 13px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.sessao-p03 .active:hover {
+    /* efeito ao passar o mouse em "comprar" */
+    transition: all 0.5s ease;
+    background-color: #F2B705;
+    color: white;
+}
+
+
+/* ESTILIZANDO PAGINA - ERVAS */
+
+
+
+.prod-e1 {
+    /* imagem do primeiro produto */
+    background-image: url('../img/alecrim.png');
+    background-repeat: no-repeat;
+    text-align: start;
+    padding-left: 13px;
+    background-size: contain;
+
+}
+
+.prod-e1 h1 {
+    /* estilizando texto do primeiro produto */
+    position: absolute;
+    top: 31%;
+    padding-left: 37%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+.prod-e1 p {
+    /* estilizando texto do primeiro produto */
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 40%;
+    padding-right: 10px;
+
+}
+
+.prod-e1 input[type=submit] {
+    /* estilizando botão do primeiro produto */
+    border-radius: 100px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-color: #F29F05;
+    position: absolute;
+    text-align: center;
+    left: 105px;
+    top: 450px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.prod-e2 {
+    /* imagem do segundo produto */
+    background-image: url('../img/oregano.png');
+    background-repeat: no-repeat;
+    text-align: start;
+    padding-left: 13px;
+    background-size: contain;
+
+}
+
+.prod-e2 h1 {
+    /* estilizando texto do segundo produto */
+    position: absolute;
+    top: 31%;
+    padding-left: 37%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+.prod-e2 p {
+    /* estilizando texto do segundo produto */
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 40%;
+    padding-right: 10px;
+
+}
+
+.prod-e2 input[type=submit] {
+    /* estilizando botão do segundo produto */
+    border-radius: 100px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-color: #F29F05;
+    position: absolute;
+    text-align: center;
+    left: 105px;
+    top: 450px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+.prod-e3 {
+    /* imagem do teceiro produto */
+    background-image: url('../img/ervas_finas.png');
+    background-repeat: no-repeat;
+    text-align: start;
+    padding-left: 13px;
+    background-size: contain;
+
+}
+
+.prod-e3 h1 {
+    /* estilizando texto do terceiro produto */
+    position: absolute;
+    top: 31%;
+    padding-left: 33%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+.prod-e3 p {
+    /* estilizando texto do terceiro produto */
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 40%;
+    padding-right: 10px;
+
+}
+
+.prod-e3 input[type=submit] {
+    /* estilizando botão do terceiro produto */
+    border-radius: 100px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-color: #F29F05;
+    position: absolute;
+    text-align: center;
+    left: 110px;
+    top: 450px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.sessao-e03 {
+    /* tamanho da terceira sessao */
+    text-align: center;
+    background-color: #F29F05;
+
+}
+
+.sessao-e03 div {
+    /* estilizando as 3 colunas dos itens na terceira sessão */
+    display: inline-block;
+    position: relative;
+    margin: 11px;
+    height: 520px;
+    width: 25%;
+    background-color: #730220;
+    margin-left: 13px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.prod-e4 {
+    /* imagem do primeiro produto */
+    background-image: url('../img/provence.png');
+    background-repeat: no-repeat;
+    text-align: start;
+    padding-left: 13px;
+    background-size: contain;
+
+}
+
+.prod-e4 h1 {
+    /* estilizando texto do primeiro produto */
+    position: absolute;
+    top: 31%;
+    padding-left: 23%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+.prod-e4 p {
+    /* estilizando texto do primeiro produto */
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 40%;
+    padding-right: 10px;
+
+}
+
+.prod-e4 input[type=submit] {
+    /* estilizando botão do primeiro produto */
+    border-radius: 100px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-color: #F29F05;
+    position: absolute;
+    text-align: center;
+    left: 105px;
+    top: 450px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.prod-e5 {
+    /* imagem do segundo produto */
+    background-image: url('../img/salsa.png');
+    background-repeat: no-repeat;
+    text-align: start;
+    padding-left: 13px;
+    background-size: contain;
+
+}
+
+.prod-e5 h1 {
+    /* estilizando texto do segundo produto */
+    position: absolute;
+    top: 31%;
+    padding-left: 37%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+.prod-e5 p {
+    /* estilizando texto do segundo produto */
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 40%;
+    padding-right: 10px;
+
+}
+
+.prod-e5 input[type=submit] {
+    /* estilizando botão do segundo produto */
+    border-radius: 100px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-color: #F29F05;
+    position: absolute;
+    text-align: center;
+    left: 105px;
+    top: 450px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+.prod-e6 {
+    /* imagem do teceiro produto */
+    background-image: url('../img/majericao.png');
+    background-repeat: no-repeat;
+    text-align: start;
+    padding-left: 13px;
+    background-size: contain;
+
+}
+
+.prod-e6 h1 {
+    /* estilizando texto do terceiro produto */
+    position: absolute;
+    top: 31%;
+    padding-left: 33%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+.prod-e6 p {
+    /* estilizando texto do produto */
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 40%;
+    padding-right: 10px;
+
+}
+
+.prod-e6 input[type=submit] {
+    /* estilizando botão do produto */
+    border-radius: 100px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-color: #F29F05;
+    position: absolute;
+    text-align: center;
+    left: 110px;
+    top: 450px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.sessao-e06 {
+    /* tamanho da terceira sessao */
+    padding: 15px;
+    text-align: center;
+    background-color: #F29F05;
+
+}
+
+.sessao-e06 div {
+    /* estilizando itens do catalogo */
+    display: inline-block;
+    position: relative;
+    margin: 11px;
+    height: 520px;
+    width: 25%;
+    background-color: #730220;
+    margin-left: 13px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.sessao-e03 .active:hover {
+    /* efeito ao passar o mouse em "comprar" */
+    transition: all 0.5s ease;
+    background-color: #F2B705;
+    color: white;
+}
+
+
+
+/* ESTILIZANDO PAGINA - TEMPEROS */
+
+
+
+.prod-v1 {
+    /* imagem do primeiro produto */
+    background-image: url('../img/anamaria.png');
+    background-repeat: no-repeat;
+    text-align: start;
+    padding-left: 13px;
+    background-size: contain;
+
+}
+
+.prod-v1 h1 {
+    /* estilizando texto do primeiro produto */
+    position: absolute;
+    top: 31%;
+    padding-left: 34%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+.prod-v1 p {
+    /* estilizando texto do primeiro produto */
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 40%;
+    padding-right: 10px;
+
+}
+
+.prod-v1 input[type=submit] {
+    /* estilizando botão do primeiro produto */
+    border-radius: 100px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-color: #F29F05;
+    position: absolute;
+    text-align: center;
+    left: 105px;
+    top: 450px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.prod-v2 {
+    /* imagem do segundo produto */
+    background-image: url('../img/chimibr.png');
+    background-repeat: no-repeat;
+    text-align: start;
+    padding-left: 13px;
+    background-size: contain;
+
+}
+
+.prod-v2 h1 {
+    /* estilizando texto do segundo produto */
+    position: absolute;
+    top: 31%;
+    padding-left: 17%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+.prod-v2 p {
+    /* estilizando texto do segundo produto */
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 40%;
+    padding-right: 10px;
+
+}
+
+.prod-v2 input[type=submit] {
+    /* estilizando botão do segundo produto */
+    border-radius: 100px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-color: #F29F05;
+    position: absolute;
+    text-align: center;
+    left: 105px;
+    top: 450px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.prod-v3 {
+    /* imagem do teceiro produto */
+    background-image: url('../img/curcuma.png');
+    background-repeat: no-repeat;
+    text-align: start;
+    padding-left: 13px;
+    background-size: contain;
+
+}
+
+.prod-v3 h1 {
+    /* estilizando texto do terceiro produto */
+    position: absolute;
+    top: 31%;
+    padding-left: 34%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+.prod-v3 p {
+    /* estilizando texto do terceiro produto */
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 40%;
+    padding-right: 10px;
+
+}
+
+.prod-v3 input[type=submit] {
+    /* estilizando botão do terceiro produto */
+    border-radius: 100px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-color: #F29F05;
+    position: absolute;
+    text-align: center;
+    left: 110px;
+    top: 450px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.sessao-v03 {
+    /* tamanho da terceira sessao */
+    text-align: center;
+    background-color: #F29F05;
+
+}
+
+.sessao-v03 div {
+    /* estilizando as 3 colunas dos itens na terceira sessão */
+    display: inline-block;
+    position: relative;
+    margin: 11px;
+    height: 520px;
+    width: 25%;
+    background-color: #730220;
+    margin-left: 13px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.prod-v4 {
+    /* imagem do primeiro produto */
+    background-image: url('../img/garam.png');
+    background-repeat: no-repeat;
+    text-align: start;
+    padding-left: 13px;
+    background-size: contain;
+
+}
+
+.prod-v4 h1 {
+    /* estilizando texto do primeiro produto */
+    position: absolute;
+    top: 31%;
+    padding-left: 25%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+.prod-v4 p {
+    /* estilizando texto do primeiro produto */
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 40%;
+    padding-right: 10px;
+
+}
+
+.prod-v4 input[type=submit] {
+    /* estilizando botão do primeiro produto */
+    border-radius: 100px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-color: #F29F05;
+    position: absolute;
+    text-align: center;
+    left: 105px;
+    top: 450px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.prod-v5 {
+    /* imagem do segundo produto */
+    background-image: url('../img/lemon.png');
+    background-repeat: no-repeat;
+    text-align: start;
+    padding-left: 13px;
+    background-size: contain;
+
+}
+
+.prod-v5 h1 {
+    /* estilizando texto do segundo produto */
+    position: absolute;
+    top: 31%;
+    padding-left: 26%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+.prod-v5 p {
+    /* estilizando texto do segundo produto */
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 40%;
+    padding-right: 10px;
+
+}
+
+.prod-v5 input[type=submit] {
+    /* estilizando botão do segundo produto */
+    border-radius: 100px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-color: #F29F05;
+    position: absolute;
+    text-align: center;
+    left: 105px;
+    top: 450px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+.prod-v6 {
+    /* imagem do teceiro produto */
+    background-image: url('../img/dry.png');
+    background-repeat: no-repeat;
+    text-align: start;
+    padding-left: 13px;
+    background-size: contain;
+
+}
+
+.prod-v6 h1 {
+    /* estilizando texto do terceiro produto */
+    position: absolute;
+    top: 31%;
+    padding-left: 25%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+.prod-v6 p {
+    /* estilizando texto do produto */
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 40%;
+    padding-right: 10px;
+
+}
+
+.prod-v6 input[type=submit] {
+    /* estilizando botão do produto */
+    border-radius: 100px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-color: #F29F05;
+    position: absolute;
+    text-align: center;
+    left: 110px;
+    top: 450px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.sessao-v06 {
+    /* tamanho da terceira sessao */
+    padding: 15px;
+    text-align: center;
+    background-color: #F29F05;
+
+}
+
+.sessao-v06 div {
+    /* estilizando itens do catalogo */
+    display: inline-block;
+    position: relative;
+    margin: 11px;
+    height: 520px;
+    width: 25%;
+    background-color: #730220;
+    margin-left: 13px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.sessao-v03 .active:hover {
+    /* efeito ao passar o mouse em "comprar" */
+    transition: all 0.5s ease;
+    background-color: #F2B705;
+    color: white;
+}
+
+
+/* ----------------------- VERSÃO MOBILE ----------------------- */
+
+
+nav.mobile{     /* Escondendo o menu MOBILE na tela para DESKTOP */
+    display: none;
+    float: right;
+
+}
+
+nav.mobile ul{
+    box-shadow: 0 9px 20px 0 rgba(0, 0, 0, 0.3);
+    position: absolute;
+    width: 100%;
+    background-color:#730220;
+    text-align: center;
+    padding: 50px 0 30px 0;
+    top: 0;
+    left: 0;
+    display: none;
+
+}
+
+nav.mobile li{
+    list-style: none;
+    padding: 10px 0;
+}
+
+nav.mobile a{
+    text-decoration: none;
+    color: white;
+
+}
+
+nav.mobile i{
+    position: relative;
+    z-index: 2;
+    color: white;
+    
+}
+
+
+@media screen and (max-width: 1024px) { /* Definindo como prosseguir a partir de dimensão mencionada */
+    nav.desktop{ /* escondendo menu DESKTOP */
+        display: none;
+    }
+
+    nav.mobile{/* Chamando o menu MOBILE */
+        display: block;
+        
+    }
+
+    .chamada-mkt{
+        text-align: center  ;
+    }
+
+    div.chamada-mkt input[type=email]{
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 13px;
+
+    }
+
+    .des-produto{
+        width: 100%;
+    }
+
+    .des-produto p{
+        padding-bottom: 20px;
+        font-weight: bolder;
+
+    }
+
+    section.sessao-01 img{
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        float: none;    
+
+    }
+
+    .feedback{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        bottom: auto;
+        transform: translate(-50%, -50%);
+        width: 80%;
+    }
+
+    .sessao-03 div{
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: 3%;
+        
+    }
+
+    .sessao-03 h1{
+        position: absolute;
+        text-align: center;
+        top: 48%;   
+        left: 40px;
+        margin: 0 auto;
+    }
+
+    .sessao-03 p{
+        position: absolute;
+        text-align: center;
+        top: 56%;   
+        margin: auto;
+
+    }
+
+    .sessao-03 div input[type=submit] {
+        margin: 0 auto;
+        left: 40%;
+
+    }
+
+    .parceiros div{
+        margin: 0 auto;
+        padding-left: 10px;
+
+    }
+
+    .parceiros p{
+        margin: 0 auto;
+        padding-left: 10px;
+    }
+
+    .footer div{
+        margin: 0 auto;
+    }
+
+    .sessao-v03 div{
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: 3%;
+        height: 525px;
+        
+    }
+
+    .sessao-v03 div h1{
+        text-align: center;
+        left: 12%;
+        top: 49%;
+    }
+
+    .sessao-v03 div p{
+        text-align: center;
+        top: 56%;
+        
+    }
+
+    .sessao-v03 div input[type=submit] {
+        margin: 0 auto;
+        left: 41%;
+            
+    }
+
+    .sessao-v03{
+        padding: 10px;
+    }
+
+    .sessao-e03 div{
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: 3%;
+        height: 525px;
+        
+    }
+
+    .sessao-e03 div h1{
+        text-align: center;
+        left: 12%;
+        top: 49%;
+    }
+
+    .sessao-e03 div p{
+        text-align: center;
+        top: 56%;
+        
+    }
+
+    .sessao-e03 div input[type=submit] {
+        margin: 0 auto;
+        left: 41%;
+            
+    }
+
+    .sessao-e03{
+        padding: 10px;
+    }
+
+    .sessao-p03 div{
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: 3%;
+        height: 525px;
+        
+    }
+
+    .sessao-p03 div h1{
+        text-align: center;
+        left: 12%;
+        top: 49%;
+    }
+
+    .sessao-p03 div p{
+        text-align: center;
+        top: 56%;
+        
+    }
+
+    .sessao-p03 div input[type=submit] {
+        margin: 0 auto;
+        left: 41%;
+            
+    }
+
+    .sessao-p03{
+        padding: 10px;
+    }
+
+}   
